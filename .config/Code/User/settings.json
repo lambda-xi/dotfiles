@@ -1,0 +1,35 @@
+{
+    "workbench.startupEditor": "none",
+
+    // editor
+    "editor.tabSize": 8, // first off...
+    "editor.cursorStyle": "line",
+    "editor.renderWhitespace": "all",
+    "editor.insertSpaces": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.dragAndDrop": false,
+    "editor.tabCompletion": true,
+
+    // workbench
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "workbench.colorTheme": "Tomorrow Night",
+
+    //files
+    "files.encoding": "utf8", // always
+    "files.trimFinalNewlines": false,
+    "files.trimTrailingWhitespace": true,
+
+    // terminal
+    "terminal.external.linuxExec": "tilix",
+    "terminal.integrated.rightClickBehavior": "copyPaste",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.fontFamily": "ProFontllx Nerd Font Book",
+
+    // python
+    "python.pythonPath": "python3",
+
+    // telemetry
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false
+}
