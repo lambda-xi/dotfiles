@@ -1,39 +1,49 @@
 {
-    "workbench.startupEditor": "none",
+	"workbench.startupEditor": "none",
 
-    // editor
-    "editor.tabSize": 8,
-    "editor.cursorStyle": "line",
-    "editor.renderWhitespace": "all",
-    "editor.insertSpaces": false,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.dragAndDrop": false,
-    "editor.tabCompletion": true,
-    "editor.fontSize": 15,
+	// editor
+	"editor.tabSize": 8, // first off...
+	"editor.cursorStyle": "line",
+	"editor.renderWhitespace": "all",
+	"editor.insertSpaces": false,
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"editor.dragAndDrop": false,
+	"editor.tabCompletion": true,
+	"editor.fontSize": 15,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
 
-    // workbench
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "workbench.colorTheme": "Tomorrow Night",
+	// workbench
+	"workbench.iconTheme": "eq-material-theme-icons",
+	"workbench.colorTheme": "Tomorrow Night",
 
-    //files
-    "files.encoding": "utf8",
-    "files.trimFinalNewlines": false,
-    "files.trimTrailingWhitespace": true,
+	//files
+	"files.encoding": "utf8", // always
+	"files.trimFinalNewlines": false,
+	"files.trimTrailingWhitespace": true,
 
-    // terminal
-    "terminal.external.linuxExec": "tilix",
-    "terminal.integrated.rightClickBehavior": "copyPaste",
-    "terminal.integrated.shell.linux": "/bin/zsh",
-    "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
+	// terminal
+	"terminal.external.linuxExec": "tilix",
+	"terminal.integrated.rightClickBehavior": "copyPaste",
+	"terminal.integrated.shell.linux": "/bin/zsh",
+	"terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
 
-    // python
-    "python.pythonPath": "python3",
-    "git.enableSmartCommit": true,
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
+	// python
+	"python.pythonPath": "python3",
+	"git.enableSmartCommit": true,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
 
-    // telemetry
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false
+	// telemetry
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
+
+	// prettier
+	"prettier.singleQuote": false,
+	"prettier.eslintIntegration": true,
+	"prettier.tabWidth": 4,
+
+	// javascript
+	"javascript.implicitProjectConfig.checkJs": true
 }
