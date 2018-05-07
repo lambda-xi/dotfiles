@@ -2,7 +2,7 @@
     "workbench.startupEditor": "none",
 
     // editor
-    "editor.tabSize": 8, // first off...
+    "editor.tabSize": 8,
     "editor.cursorStyle": "line",
     "editor.renderWhitespace": "all",
     "editor.insertSpaces": false,
@@ -10,13 +10,14 @@
     "editor.fontLigatures": true,
     "editor.dragAndDrop": false,
     "editor.tabCompletion": true,
+    "editor.fontSize": 15,
 
     // workbench
     "workbench.iconTheme": "eq-material-theme-icons",
     "workbench.colorTheme": "Tomorrow Night",
 
     //files
-    "files.encoding": "utf8", // always
+    "files.encoding": "utf8",
     "files.trimFinalNewlines": false,
     "files.trimTrailingWhitespace": true,
 
@@ -24,10 +25,13 @@
     "terminal.external.linuxExec": "tilix",
     "terminal.integrated.rightClickBehavior": "copyPaste",
     "terminal.integrated.shell.linux": "/bin/zsh",
-    "terminal.integrated.fontFamily": "ProFontllx Nerd Font Book",
+    "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
 
     // python
     "python.pythonPath": "python3",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
 
     // telemetry
     "telemetry.enableCrashReporter": false,
